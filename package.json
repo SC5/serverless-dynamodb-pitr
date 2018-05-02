@@ -1,0 +1,44 @@
+{
+  "name": "serverless-dynamodb-pitr",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "description": "Serverless plugin to enable PITR (Point-in-time recovery) for a DynamoDB table on deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karim Amzil (https://nordcloud.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SC5/serverless-dynamodb-pitr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SC5/serverless-dynamodb-pitr/issues"
+  },
+  "homepage": "https://github.com/SC5/serverless-dynamodb-pitr#readme",
+  "keywords": [
+    "serverless framework plugin",
+    "serverless applications",
+    "serverless plugins",
+    "dynamodb",
+    "pitr",
+    "point-in-time recovery",
+    "backups",
+    "lambda",
+    "aws",
+    "aws lambda",
+    "amazon",
+    "amazon web services",
+    "serverless.com"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.214.1",
+    "bluebird": "^3.5.1"
+  },
+  "devDependencies": {
+    "serverless": "^1.26.1"
+  }
+}
