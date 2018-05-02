@@ -6,7 +6,7 @@ to enable/disable PITR (Point-in-time recovery) for one or more DynamoDB tables 
 ## Introduction
 
 This plugin uses DynamoDB API to update the PointInTimeRecoverySpecification
-of the specified tables at the time of deployment, allowing to enable or disable point-in-time recovery of the tables.
+of the specified tables right after deployment, allowing to enable or disable point-in-time recovery of the tables.
 
 ## Installation and configuration
 
@@ -31,7 +31,9 @@ You can add items under the `custom.pitr` in `serverless.yml`. Required attribut
 custom:
   pitr:
     - tableName: someDynamoDBTableName
-    - enabled: true or false
+      enabled: true
+    - tableName: someOtherTableName
+      enabled: false
 ```
 
 ## TODO
