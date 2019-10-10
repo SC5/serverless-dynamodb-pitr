@@ -1,3 +1,5 @@
+## This repo is archived since the functionality is now supported by CloudFormation. 
+
 # Serverless DynamoDB Point-in-time Recovery
 
 A Serverless Plugin for the [Serverless Framework](http://www.serverless.com)
